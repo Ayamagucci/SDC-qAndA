@@ -6,35 +6,40 @@ This project is an implementation of my Q&A API for Atelier, an innovative e-com
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Ayamagucci/SDC-qAndA
-   
+    ```bash
+    git clone https://github.com/Ayamagucci/SDC-qAndA
+    ```
+
 2. Navigate to the project directory:
 
-   ```bash
-   cd your_repository
+    ```bash
+    cd your_repository
+    ```
 
 3. Install dependencies:
 
-   ```bash
-   npm install
+    ```bash
+    npm install
+    ```
 
 4. Create a `.env` file in the root directory with the following environment variables:
 
-   ```plaintext
-   PORT=3000
-   USER=your_username
-   HOST=localhost
-   DB=your_database_name
-   PW=your_password
-   DB_PORT=5432
+    ```plaintext
+    PORT=3000
+    USER=your_username
+    HOST=localhost
+    DB=your_database_name
+    PW=your_password
+    DB_PORT=5432
+    ```
 
-Replace `your_username`, `your_database_name`, and `your_password` with your PostgreSQL credentials.
+    Replace `your_username`, `your_database_name`, and `your_password` with your PostgreSQL credentials.
 
 5. Start the server:
 
-   ```bash
-   npm start
+    ```bash
+    npm start
+    ```
 
 ## Database Schema
 
@@ -115,4 +120,3 @@ The database schema is defined in the SQL file `schema.sql`. You can view the sc
   - Parameters:
     - `answer_id`: ID of the answer.
   - Returns: Success message upon reporting the answer.
-
