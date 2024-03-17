@@ -29,12 +29,16 @@ This project is an implementation of my Q&A API for Atelier, an innovative e-com
    PW=your_password
    DB_PORT=5432
 
-  Replace `your_username`, `your_database_name`, and `your_password` with your PostgreSQL credentials.
+Replace `your_username`, `your_database_name`, and `your_password` with your PostgreSQL credentials.
 
 5. Start the server:
 
    ```bash
    npm start
+
+## Database Schema
+
+The database schema is defined in the SQL file `schema.sql`. You can view the schema [here](https://github.com/Ayamagucci/SDC-qAndA/blob/main/db/schema.sql).
 
 ## Usage
 
